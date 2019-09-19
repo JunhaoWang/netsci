@@ -1,0 +1,2 @@
+portion of nodes in giant connected component: 0.05 
+time: 0.0457 
