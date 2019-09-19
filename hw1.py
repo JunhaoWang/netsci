@@ -15,6 +15,7 @@ def load_data(p='datasets/collaboration.edgelist.txt'):
     with open(p, 'r') as f:
         txt = f.readlines()
         txt = list(map(lambda x: x.replace('\n', '').split('\t'), txt))
+        txt = [i for i in txt if i[0].isdigit()]
         txt = list(map(lambda x: [int(x[0]), int(x[1])], txt))
         txt = np.array(txt)
 
@@ -338,7 +339,6 @@ def p2(S, num_node):
 
 
 if __name__ == '__main__':
-    data = 'collaboration'
 
     name_dir_dict = {
         'collaboration' : 'datasets/collaboration.edgelist.txt',
@@ -353,9 +353,12 @@ if __name__ == '__main__':
         'www': 'datasets/www.edgelist.txt'
     }
 
-    S, num_node = load_data(name_dir_dict[data])
-    p1(S, num_node, 'results/' + data)
-    S_ba, num_node = p2(S, num_node)
-    p1(S_ba, num_node, 'results/ba_' + data)
+    for data in name_dir_dict:
+        print('-'*10, data)
+        S, num_node = load_data(name_dir_dict[data])
+        print('num_node: {}, num_edge: {}'.format(num_node, S.nnz))
+        # p1(S, num_node, 'results/' + data)
+        # S_ba, num_node = p2(S, num_node)
+        # p1(S_ba, num_node, 'results/ba_' + data)
 
 
