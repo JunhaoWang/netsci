@@ -1,3 +1,0 @@
-number of connected component: Counter({0: 23133}) 
-portion of nodes in giant connected component: 1.0 
-time: 1.3706 
