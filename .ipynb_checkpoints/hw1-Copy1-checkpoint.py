@@ -429,7 +429,7 @@ def p3_new(S, num_node):
 if __name__ == '__main__':
 
 
-    max_num_node = 5000
+    max_num_node = 40000
 
     name_dir_dict = OrderedDict()
     _ = [
