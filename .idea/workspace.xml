@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95315bf0-8b2d-460b-be1b-dc122f4d38a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/hw1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/hw1-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/hw1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ba_collaboration_clustering.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ba_collaboration_component.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ba_collaboration_degree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ba_collaboration_degreecluster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ba_collaboration_degreecorr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ba_collaboration_path.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/citation_clustering.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/citation_degree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/collaboration_clustering.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/collaboration_component.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/collaboration_degree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/collaboration_degreecluster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/collaboration_degreecorr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/collaboration_path.png" beforeDir="false" />
-    </list>
+    <list default="true" id="95315bf0-8b2d-460b-be1b-dc122f4d38a7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +10,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="429" column="24" selection-start-line="429" selection-start-column="24" selection-end-line="429" selection-end-column="24" />
+            <state relative-caret-position="416">
+              <caret line="450" column="37" lean-forward="true" selection-start-line="450" selection-start-column="37" selection-end-line="450" selection-end-column="37" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -60,6 +50,7 @@
       <find>40000</find>
       <find>'path</find>
       <find>component</find>
+      <find>_sub</find>
     </findStrings>
     <replaceStrings>
       <replace>_in.npz</replace>
@@ -163,14 +154,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12351387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04016064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04016064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4698795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -215,11 +205,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="429" column="24" selection-start-line="429" selection-start-column="24" selection-end-line="429" selection-end-column="24" />
+        <state relative-caret-position="416">
+          <caret line="450" column="37" lean-forward="true" selection-start-line="450" selection-start-column="37" selection-end-line="450" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
