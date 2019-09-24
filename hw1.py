@@ -10,6 +10,7 @@ from collections import deque
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 from collections import Counter
+from collections import OrderedDict
 
 def truncated_normal(loc, var, mini, maxi):
     while True:
@@ -430,19 +431,22 @@ if __name__ == '__main__':
 
     max_num_node = 5000
 
-    name_dir_dict = {
-        'collaboration': 'datasets/collaboration_in.npz',
-        'citation': 'datasets/citation_in.npz',
-        'actor': 'datasets/actor_in.npz',
-        'email': 'datasets/email_in.npz',
-        'internet': 'datasets/internet_in.npz',
-        'metabolic': 'datasets/metabolic_in.npz',
-        'phonecalls': 'datasets/phonecalls_in.npz',
-        'powergrid': 'datasets/powergrid_in.npz',
-        'protein': 'datasets/protein_in.npz',
-        'www': 'datasets/www_in.npz'
-    }
-
+    name_dir_dict = OrderedDict()
+    _ = [
+        ('collaboration', 'datasets/collaboration_in.npz'),
+        ('citation', 'datasets/citation_in.npz'),
+#         ('actor', 'datasets/actor_in.npz'),
+#         ('email', 'datasets/email_in.npz'),
+#         ('internet', 'datasets/internet_in.npz'),
+#         ('metabolic', 'datasets/metabolic_in.npz'),
+#         ('phonecalls', 'datasets/phonecalls_in.npz'),
+#         ('powergrid', 'datasets/powergrid_in.npz'),
+#         ('protein', 'datasets/protein_in.npz'),
+#         ('www', 'datasets/www_in.npz')
+    ]
+    for i, j in _:
+        name_dir_dict[i] = j
+        
     for data in name_dir_dict:
         print('\n','-'*50, data)
         S, num_node = load_data_npz(name_dir_dict[data])
